@@ -1,5 +1,18 @@
 .btn {
   border-radius: 0;
-  padding: 0 1.2rem;
-  margin-left: 0.5rem;
+  padding: 0 1.4rem;
+  margin-left: 1rem;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  border-width: 0.1rem;
+}
+
+.nav-links {
+  color: var(--neutral-grayish-violet);
+  margin: 0 0.2rem;
+}
+
+.dropdown-background {
+  background-image: url('./public/images/bg-pattern-mobile-nav.svg');
+  /* background-size: cover; */
 }

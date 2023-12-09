@@ -11,17 +11,24 @@ const Header = () => {
     <div>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
           <Navbar.Brand href="#home">
             <img src="./public/images/logo.svg" alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse
+            id="basic-navbar-nav"
+            className="dropdown-background"
+          >
             <Nav className="ms-auto">
-              <Nav.Link href="#how-we-work">HOW WE WORK</Nav.Link>
-              <Nav.Link href="#blog">BLOG</Nav.Link>
-              <Nav.Link href="#account">ACCOUNT</Nav.Link>
-              {/* <Button className="btn">VIEW PLANS</Button> */}
+              <Nav.Link className="nav-links" href="#how-we-work">
+                HOW WE WORK
+              </Nav.Link>
+              <Nav.Link className="nav-links" href="#blog">
+                BLOG
+              </Nav.Link>
+              <Nav.Link className="nav-links" href="#account">
+                ACCOUNT
+              </Nav.Link>
               <Button variant="outline-dark">VIEW PLANS</Button>
             </Nav>
           </Navbar.Collapse>
