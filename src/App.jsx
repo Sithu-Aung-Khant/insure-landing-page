@@ -7,11 +7,11 @@ import About from './components/about/About';
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Footer />
       <About />
-    </>
+    </div>
   );
 }
 
