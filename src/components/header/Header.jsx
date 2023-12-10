@@ -12,7 +12,7 @@ const Header = () => {
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">
-            <img src="./public/images/logo.svg" alt="" />
+            <img src="./images/logo.svg" alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse
