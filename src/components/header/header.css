@@ -12,7 +12,8 @@
   margin: 0 0.2rem;
 }
 
-.dropdown-background {
+/* .dropdown-background {
   background-image: url('./images/bg-pattern-mobile-nav.svg');
-  /* background-size: cover; */
-}
+  background-size: cover;
+  background-color: var(--neutral--dark-violet);
+} */
