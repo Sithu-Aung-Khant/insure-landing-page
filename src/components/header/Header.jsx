@@ -24,16 +24,10 @@ const Header = () => {
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={handleNavToggle}
-            style={{
-              // padding: '0',
-              borderRadius: '0',
-              border: '2px',
-            }}
           >
-            {isNavCollapsed ? <img src="/images/icon-close.svg" /> : null}
-            {/* {isNavCollapsed ? (
+            {isNavCollapsed ? (
               <BsX style={{ width: '30px', height: '30px' }} />
-            ) : null} */}
+            ) : null}
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

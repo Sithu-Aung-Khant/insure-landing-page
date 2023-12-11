@@ -34,4 +34,7 @@
 /* Your custom CSS file or style block */
 .navbar-toggler {
   --bs-navbar-toggler-focus-width: 0;
+  padding: 0.2rem;
+  border-radius: 0;
+  border: 1.5px solid var(--neutral--dark-violet);
 }
