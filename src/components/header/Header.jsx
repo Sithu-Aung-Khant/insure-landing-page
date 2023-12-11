@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './header.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -7,18 +7,32 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 
 const Header = () => {
+  const [isNavbarCollapsed, setIsNavbarCollapsed] = useState(true);
+
+  const handleNavbarToggle = () => {
+    setIsNavbarCollapsed(!isNavbarCollapsed);
+    console.log(isNavbarCollapsed);
+  };
+
   return (
     <div>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      {/* <Navbar expand="lg" className="bg-body-tertiary"> */}
+      <Navbar
+        expand="lg"
+        className={`bg-body-tertiary navbar-custom ${
+          isNavbarCollapsed ? 'collapsed' : ''
+        }`}
+        onToggle={handleNavbarToggle}
+      >
         <Container>
           <Navbar.Brand href="#home">
-            <img src="./images/logo.svg" alt="" />
+            <img src="./images/logo.svg" alt="company logo" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse
-            id="basic-navbar-nav"
-            className="dropdown-background"
-          >
+          <Navbar.Toggle aria-controls="basic-navbar-nav">
+            {isNavbarCollapsed ? <img /> : <DefaultIcon />}{' '}
+            {/* Toggle between X icon and default icon */}
+          </Navbar.Toggle>
+          <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link className="nav-links" href="#how-we-work">
                 HOW WE WORK

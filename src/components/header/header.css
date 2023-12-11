@@ -17,3 +17,23 @@
   background-size: cover;
   background-color: var(--neutral--dark-violet);
 } */
+
+.collapsed-navbar {
+  background-image: url('./images/bg-pattern-mobile-nav.svg');
+  background-color: var(--neutral--dark-violet);
+  /* height: 300px; */
+  background-position: 5%;
+}
+
+.collapsed-navbar .btn {
+  color: white;
+  border: 2px solid white;
+  margin-left: 0;
+}
+
+.ms-auto {
+  /* margin-bottom: 250px; */
+}
+
+.navbar-toggler {
+}
