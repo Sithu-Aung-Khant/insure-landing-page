@@ -16,7 +16,10 @@ const Header = () => {
 
   return (
     <div>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar
+        expand="lg"
+        className={`bg-body-tertiary ${isNavCollapsed ? 'collapsed' : ''}`}
+      >
         <Container>
           <Navbar.Brand href="#home">
             <img src="./images/logo.svg" alt="company logo" />

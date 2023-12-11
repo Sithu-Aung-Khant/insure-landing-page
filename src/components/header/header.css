@@ -1,3 +1,18 @@
+.container {
+  padding: 0;
+}
+
+.container .navbar-brand {
+  margin: 1rem 1.2rem;
+}
+
+.container .navbar-toggler {
+  margin: 1rem 1.2rem;
+}
+
+.bg-body-tertiary {
+  padding: 0;
+}
 .btn {
   border-radius: 0;
   padding: 0 1.4rem;
@@ -12,29 +27,42 @@
   margin: 0 0.2rem;
 }
 
-/* .dropdown-background {
-  background-image: url('./images/bg-pattern-mobile-nav.svg');
-  background-size: cover;
-  background-color: var(--neutral--dark-violet);
-} */
-
 .collapsed-navbar {
-  background-image: url('./images/bg-pattern-mobile-nav.svg');
-  background-color: var(--neutral--dark-violet);
-  /* height: 300px; */
-  background-position: 5%;
 }
 
-.collapsed-navbar .btn {
-  color: white;
-  border: 2px solid white;
-  margin-left: 0;
-}
-
-/* Your custom CSS file or style block */
 .navbar-toggler {
   --bs-navbar-toggler-focus-width: 0;
   padding: 0.2rem;
   border-radius: 0;
   border: 1.5px solid var(--neutral--dark-violet);
+}
+
+.navbar-collapse.collapse.show {
+  background: url('../../../public/images/bg-pattern-mobile-nav.svg') no-repeat
+    bottom;
+  background-color: var(--neutral--dark-violet);
+  background-size: contain;
+  height: 100vh;
+}
+
+.navbar-collapse.collapse.show .btn {
+  color: white;
+  border: 2px solid white;
+  margin-left: 0;
+  margin-top: 1rem;
+  padding: 0.4rem;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.navbar-collapse.collapse.show .nav-links.nav-link {
+  color: white;
+  padding: 0.5rem 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.navbar-collapse.collapse.show .ms-auto.navbar-nav {
+  /* background-color: red; */
+  padding: 1.8rem;
 }
