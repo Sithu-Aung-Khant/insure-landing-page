@@ -5,32 +5,35 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
+import { BsX } from 'react-icons/bs';
 
 const Header = () => {
-  const [isNavbarCollapsed, setIsNavbarCollapsed] = useState(true);
+  const [isNavCollapsed, setIsNavCollapsed] = useState(false);
 
-  const handleNavbarToggle = () => {
-    setIsNavbarCollapsed(!isNavbarCollapsed);
-    console.log(isNavbarCollapsed);
+  const handleNavToggle = () => {
+    setIsNavCollapsed(!isNavCollapsed);
   };
 
   return (
     <div>
       <Navbar expand="lg" className="bg-body-tertiary">
-        {/* <Navbar
-        expand="lg"
-        className={`bg-body-tertiary navbar-custom ${
-          isNavbarCollapsed ? 'collapsed' : ''
-        }`}
-        onToggle={handleNavbarToggle}
-      > */}
         <Container>
           <Navbar.Brand href="#home">
             <img src="./images/logo.svg" alt="company logo" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
-            {isNavbarCollapsed ? <img /> : <DefaultIcon />}{' '}
-            {/* Toggle between X icon and default icon */}
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={handleNavToggle}
+            style={{
+              // padding: '0',
+              borderRadius: '0',
+              border: '2px',
+            }}
+          >
+            {isNavCollapsed ? <img src="/images/icon-close.svg" /> : null}
+            {/* {isNavCollapsed ? (
+              <BsX style={{ width: '30px', height: '30px' }} />
+            ) : null} */}
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

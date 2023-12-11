@@ -31,9 +31,7 @@
   margin-left: 0;
 }
 
-.ms-auto {
-  /* margin-bottom: 250px; */
-}
-
+/* Your custom CSS file or style block */
 .navbar-toggler {
+  --bs-navbar-toggler-focus-width: 0;
 }
