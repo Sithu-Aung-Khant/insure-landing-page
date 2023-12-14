@@ -1,12 +1,12 @@
 import React from 'react';
-import './main.css';
+import './intro.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Copy from './copy/Copy';
 
-const Main = () => {
+const Intro = () => {
   return (
     <>
       <Container className="copy-container p-xxl-6">
@@ -34,4 +34,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Intro;
