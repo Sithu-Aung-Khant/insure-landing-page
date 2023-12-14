@@ -1,4 +1,4 @@
-.copy-container {
+.intro {
   color: white;
   padding: 4rem;
   background-color: var(--primary-dark-violet);
@@ -11,7 +11,7 @@
   padding: 0;
 }
 
-.copy-container .image-intro {
+.intro .image-intro {
   object-fit: cover;
   width: 100%;
   height: 100%;

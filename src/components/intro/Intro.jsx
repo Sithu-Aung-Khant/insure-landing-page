@@ -9,7 +9,7 @@ import Copy from './copy/Copy';
 const Intro = () => {
   return (
     <>
-      <Container className="copy-container p-xxl-6">
+      <Container className="intro p-xxl-6">
         <Row className="p-xxl-5">
           <Col sm={{ order: 2, span: 6, push: 6 }}>
             <Image
