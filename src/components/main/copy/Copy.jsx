@@ -13,7 +13,8 @@ const Copy = () => {
         expertise and technology to help you find the plan that's right for you.
         Ensure you and your loved ones are protected.
       </p>
-      <Button variant="light">VIEW PLANS</Button>
+      {/* <Button variant="outline-light">VIEW PLANS</Button> */}
+      <Button variant="outline-light">VIEW PLANS</Button>
     </div>
   );
 };

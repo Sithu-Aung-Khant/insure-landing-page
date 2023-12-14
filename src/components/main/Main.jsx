@@ -13,7 +13,7 @@ const Main = () => {
         <Row className="p-xxl-5">
           <Col sm={{ order: 2, span: 6, push: 6 }}>
             <Image
-              src="public\images\image-intro-desktop.jpg"
+              src="images\image-intro-desktop.jpg"
               className="image-intro"
             />
           </Col>

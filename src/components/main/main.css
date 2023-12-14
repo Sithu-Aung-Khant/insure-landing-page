@@ -1,23 +1,10 @@
 .copy-container {
   color: white;
   padding: 4rem;
-  /* background-image: url(../../../public/images/bg-pattern-intro-left-desktop.svg); */
   background-color: var(--primary-dark-violet);
-  background-repeat: no-repeat;
-  background-size: contain;
+  /* height: 100vh; */
   height: 65vh;
-  background-position: 0 20vh;
   position: relative;
-}
-
-.copy-container .copy {
-  text-align: start;
-}
-
-.copy-container h1 {
-  padding: 1rem 10rem 1rem 0;
-  margin-top: 1rem;
-  /* font-size: 70px; */
 }
 
 .col-sm-6 {
@@ -40,4 +27,6 @@
   position: absolute;
   right: 0;
   top: 0;
+  width: 30%;
+  height: auto;
 }
