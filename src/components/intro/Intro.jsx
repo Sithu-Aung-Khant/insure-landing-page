@@ -18,6 +18,7 @@ const Intro = () => {
             />
           </Col>
           <Col sm={{ order: 1, span: 6, pull: 6 }}>
+            {/* Heading, paragraph of Intro Page */}
             <Copy />
           </Col>
         </Row>

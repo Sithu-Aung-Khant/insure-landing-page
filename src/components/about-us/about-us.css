@@ -1,3 +1,70 @@
 .about-us {
-  margin-top: 15rem;
+  margin-top: 12rem;
+  margin-bottom: 10rem;
+}
+
+.about-us .horizontal-line {
+  width: 10rem;
+  height: 0.1rem;
+  background-color: var(--primary-grayish-blue);
+  margin-bottom: 3rem;
+}
+
+.about-us h1 {
+  text-align: start;
+  font-size: 3rem;
+}
+
+.about-us .card {
+  text-align: start;
+  padding: 0;
+  border: none;
+}
+
+.about-us .card-body {
+  padding: 0;
+}
+
+.about-us img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.about-us .card-title {
+  font-family: 'DM Serif Display', sans-serif;
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+}
+
+.about-us .card-text {
+  color: var(--neutral-grayish-violet);
+}
+
+/* Call to Action */
+.call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-image: url(../../../public/images/bg-pattern-how-we-work-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: var(--primary-dark-violet);
+  background-size: auto 100%;
+  object-fit: cover;
+  background-position: right center;
+  /* padding: 25px 48px; */
+}
+
+.call-to-action h1 {
+  width: 55%;
+  margin-left: 2rem;
+  padding-right: 4rem;
+  font-size: 3.4rem;
+}
+
+.call-to-action .btn {
+  height: 3rem;
+  width: 10rem;
+  border-radius: 0;
+  margin-right: 2rem;
 }

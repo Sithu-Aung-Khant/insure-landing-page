@@ -1,17 +1,18 @@
 .intro .copy {
   text-align: start;
   padding-left: 1rem;
+  padding: 0;
 }
 
 .horizontal-line {
   width: 10rem;
   height: 0.1rem;
   background-color: white;
+  margin-bottom: 2rem;
 }
 
 .copy h1 {
-  padding: 2rem 6.5rem 1rem 0;
-  margin-top: 1rem;
+  padding: 1rem 6.5rem 1rem 0;
   font-size: 3.8rem;
 }
 
