@@ -2,14 +2,21 @@
   color: white;
   padding: 4rem;
   background-color: var(--primary-dark-violet);
-  /* height: 100vh; */
-  height: 65vh;
+  /* height: 65vh; */
   position: relative;
+}
+
+.intro .copy {
+  background-color: var(--primary-dark-violet);
 }
 
 .col-sm-6 {
   padding: 0;
 }
+
+/* .order-sm-1 {
+  background-color: var(--primary-dark-violet);
+} */
 
 .intro .image-intro {
   object-fit: cover;

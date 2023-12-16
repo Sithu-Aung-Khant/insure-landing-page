@@ -9,8 +9,8 @@ import Copy from './copy/Copy';
 const Intro = () => {
   return (
     <>
-      <Container className="intro p-xxl-6">
-        <Row className="p-xxl-5">
+      <Container className="intro p-0 p-xxl-5">
+        <Row className=" p-xxl-5">
           <Col sm={{ order: 2, span: 6, push: 6 }}>
             <Image
               src="images\image-intro-desktop.jpg"

@@ -46,7 +46,7 @@
   align-items: center;
   justify-content: space-between;
   color: white;
-  background-image: url(../../../public/images/bg-pattern-how-we-work-desktop.svg);
+  background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
   background-repeat: no-repeat;
   background-color: var(--primary-dark-violet);
   background-size: auto 100%;
