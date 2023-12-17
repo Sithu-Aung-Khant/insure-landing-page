@@ -8,12 +8,12 @@ import AboutUs from './components/about-us/AboutUs';
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <Intro />
       <AboutUs />
       {/* <Footer /> */}
-    </div>
+    </>
   );
 }
 

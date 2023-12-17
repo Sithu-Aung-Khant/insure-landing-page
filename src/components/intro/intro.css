@@ -1,22 +1,15 @@
 .intro {
   color: white;
-  padding: 4rem;
+  padding: 4rem 7rem;
   background-color: var(--primary-dark-violet);
-  /* height: 65vh; */
+  height: 90vh;
   position: relative;
-}
-
-.intro .copy {
-  background-color: var(--primary-dark-violet);
+  max-width: 100%;
 }
 
 .col-sm-6 {
   padding: 0;
 }
-
-/* .order-sm-1 {
-  background-color: var(--primary-dark-violet);
-} */
 
 .intro .image-intro {
   object-fit: cover;
@@ -28,6 +21,7 @@
   position: absolute;
   top: 75%;
   left: 0px;
+  z-index: 0;
 }
 
 .bg-pattern-right {
@@ -36,4 +30,21 @@
   top: 0;
   width: 30%;
   height: auto;
+}
+
+@media only screen and (max-width: 426px) {
+  .intro {
+    height: 200vh;
+    padding: 0;
+  }
+  .bg-pattern-left,
+  .bg-pattern-right {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .intro {
+    height: 60vh;
+  }
 }

@@ -10,10 +10,9 @@
   margin-bottom: 3rem;
 }
 
-.about-us h1 {
-  text-align: start;
+/* .about-us h1 {
   font-size: 3rem;
-}
+} */
 
 .about-us .card {
   text-align: start;
@@ -42,29 +41,29 @@
 
 /* Call to Action */
 .call-to-action {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   color: white;
   background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
   background-repeat: no-repeat;
   background-color: var(--primary-dark-violet);
-  background-size: auto 100%;
-  object-fit: cover;
   background-position: right center;
-  /* padding: 25px 48px; */
+  background-size: auto 100%;
+  /* object-fit: cover; */
+  align-items: center;
+  justify-content: space-between;
 }
 
-.call-to-action h1 {
-  width: 55%;
-  margin-left: 2rem;
-  padding-right: 4rem;
-  font-size: 3.4rem;
+.call-to-action .col-sm-4 {
+  /* text-align: end; */
 }
 
 .call-to-action .btn {
-  height: 3rem;
-  width: 10rem;
   border-radius: 0;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
+}
+
+@media only screen and (min-width: 769px) {
+  .call-to-action h1 {
+    /* margin-left: 2rem; */
+    padding-right: 6rem;
+  }
 }

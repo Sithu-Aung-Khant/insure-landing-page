@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@300;400;500;600;700&display=swap');
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  /* max-width: 1280px; */
+  margin: 0;
   padding: 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 :root {
@@ -13,6 +13,17 @@
   --neutral--dark-violet: hsl(270, 9%, 17%);
   --neutral-grayish-violet: hsl(273, 4%, 51%);
   --neutral-light-gray: hsl(0, 0%, 98%);
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  /* max-width: 100%; */
+}
+
+h1,
+h2 {
+  font-family: 'DM Serif Display', sans-serif;
 }
 
 .logo {
@@ -49,14 +60,4 @@
 
 .read-the-docs {
   color: #888;
-}
-
-body {
-  font-family: 'Karla', sans-serif;
-  font-weight: 700;
-}
-
-h1,
-h2 {
-  font-family: 'DM Serif Display', sans-serif;
 }

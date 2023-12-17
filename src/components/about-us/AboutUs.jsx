@@ -13,10 +13,10 @@ const AboutUs = () => {
       <Row className="p-xxl-5">
         <Col className="p-xxl-3">
           <div className="horizontal-line"></div>
-          <h1>We're Different</h1>
+          <h1 className="display-4">We're Different</h1>
         </Col>
       </Row>
-      <CardGroup className="p-xxl-5">
+      <CardGroup className="p-xxl-5 gap-3">
         <Card>
           <Card.Img variant="top" src="./images/icon-snappy-process.svg" />
           <Card.Body>
@@ -48,10 +48,14 @@ const AboutUs = () => {
           </Card.Body>
         </Card>
       </CardGroup>
-      <Container className=" p-xxl-5">
-        <Row className="call-to-action p-xxl-5">
-          <h1>Find out more about how we work</h1>
-          <Button variant="outline-light">HOW WE WORK</Button>
+      <Container className="p-xxl-5">
+        <Row className="call-to-action p-5">
+          <Col sm={7}>
+            <h1 className="display-4">Find out more about how we work</h1>
+          </Col>
+          <Col sm={5} className="text-center text-md-end">
+            <Button variant="outline-light">HOW WE WORK</Button>
+          </Col>
         </Row>
       </Container>
     </Container>

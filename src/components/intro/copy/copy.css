@@ -17,6 +17,10 @@
   /* font-size: 3.8rem; */
 }
 
+.copy p {
+  font-weight: 400;
+}
+
 .copy .btn {
   margin: 1rem 0 0;
   padding: 0.5rem 1rem;
@@ -24,4 +28,17 @@
   font-weight: 600;
   border-radius: 0;
   border-width: 0.1rem;
+  position: absolute;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 426px) {
+  .intro .copy {
+    background: url(../../../images/bg-pattern-intro-left-mobile.svg) left top
+      no-repeat;
+  }
+
+  .horizontal-line {
+    display: none;
+  }
 }
