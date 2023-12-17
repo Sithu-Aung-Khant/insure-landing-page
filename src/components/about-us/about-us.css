@@ -42,7 +42,7 @@
 /* Call to Action */
 .call-to-action {
   color: white;
-  background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
+  background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
   background-repeat: no-repeat;
   background-color: var(--primary-dark-violet);
   background-position: right center;
@@ -52,18 +52,15 @@
   justify-content: space-between;
 }
 
-.call-to-action .col-sm-4 {
-  /* text-align: end; */
-}
-
 .call-to-action .btn {
   border-radius: 0;
-  /* margin-right: 2rem; */
 }
 
 @media only screen and (min-width: 769px) {
+  .call-to-action {
+    background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
+  }
   .call-to-action h1 {
-    /* margin-left: 2rem; */
     padding-right: 6rem;
   }
 }

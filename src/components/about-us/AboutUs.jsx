@@ -49,11 +49,16 @@ const AboutUs = () => {
         </Card>
       </CardGroup>
       <Container className="p-xxl-5">
-        <Row className="call-to-action p-5">
-          <Col sm={7}>
-            <h1 className="display-4">Find out more about how we work</h1>
+        <Row className="call-to-action p-5 p-md-5">
+          <Col sm={7} className="text-center text-md-start">
+            <h1 className="display-2 d-md-none">
+              Find out more about how we work
+            </h1>
+            <h1 className="display-4 d-none d-md-block">
+              Find out more about how we work
+            </h1>
           </Col>
-          <Col sm={5} className="text-center text-md-end">
+          <Col sm={5} className="text-center text-md-end mt-4 mt-md-0">
             <Button variant="outline-light">HOW WE WORK</Button>
           </Col>
         </Row>
