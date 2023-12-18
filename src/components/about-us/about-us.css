@@ -1,6 +1,6 @@
 .about-us {
-  margin-top: 12rem;
-  margin-bottom: 10rem;
+  margin: 12rem 0 10rem;
+  max-width: 100%;
 }
 
 .about-us .horizontal-line {
@@ -10,12 +10,7 @@
   margin-bottom: 3rem;
 }
 
-/* .about-us h1 {
-  font-size: 3rem;
-} */
-
 .about-us .card {
-  text-align: start;
   padding: 0;
   border: none;
 }
@@ -31,11 +26,18 @@
 
 .about-us .card-title {
   font-family: 'DM Serif Display', sans-serif;
-  font-size: 2rem;
+  margin: 2rem 0 1rem;
+}
+.about-us h1 {
+  font-family: 'DM Serif Display', sans-serif;
   margin: 2rem 0 1rem;
 }
 
 .about-us .card-text {
+  color: var(--neutral-grayish-violet);
+}
+
+.about-us p {
   color: var(--neutral-grayish-violet);
 }
 
@@ -47,20 +49,34 @@
   background-color: var(--primary-dark-violet);
   background-position: right center;
   background-size: auto 100%;
-  /* object-fit: cover; */
   align-items: center;
   justify-content: space-between;
 }
 
 .call-to-action .btn {
   border-radius: 0;
+  border: 0.1rem solid white;
+  padding: 0.8rem 1.5rem;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 769px) {
   .call-to-action {
     background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
   }
-  .call-to-action h1 {
+}
+
+@media only screen and (min-width: 992px) {
+  .about-us {
+    padding: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .call-to-action h2 {
     padding-right: 6rem;
+  }
+  .about-us {
+    padding: 3rem 7rem;
   }
 }
