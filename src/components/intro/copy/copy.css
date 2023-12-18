@@ -12,11 +12,6 @@
   margin-bottom: 2rem;
 }
 
-.copy h1 {
-  padding: 1rem 6.5rem 1rem 0;
-  /* font-size: 3.8rem; */
-}
-
 .copy p {
   font-weight: 400;
 }
@@ -32,12 +27,19 @@
   z-index: 1;
 }
 
+.bg-copy-right {
+  position: absolute;
+  right: 0;
+}
+
 @media only screen and (max-width: 426px) {
   .intro .copy {
     background: url(../../../images/bg-pattern-intro-left-mobile.svg) left top
       no-repeat;
   }
-
+  .copy .btn {
+    position: static;
+  }
   .horizontal-line {
     display: none;
   }

@@ -35,7 +35,7 @@ const Header = () => {
             ) : null}
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
+            <Nav className="ms-auto text-center">
               <Nav.Link className="nav-links" href="#how-we-work">
                 HOW WE WORK
               </Nav.Link>
