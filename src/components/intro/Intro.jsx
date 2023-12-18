@@ -10,7 +10,7 @@ const Intro = () => {
   return (
     <>
       <Container className="intro">
-        <Row className=" p-xxl-5">
+        <Row className="p-sm-4 p-md-5">
           <Col sm={{ order: 2, span: 6, push: 6 }}>
             <Image
               src="images\image-intro-desktop.jpg"
