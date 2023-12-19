@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Intro />
       <AboutUs />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

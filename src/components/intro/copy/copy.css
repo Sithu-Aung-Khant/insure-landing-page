@@ -40,7 +40,7 @@
   .copy .btn {
     position: static;
   }
-  .horizontal-line {
+  .intro .horizontal-line {
     display: none;
   }
 }

@@ -1,13 +1,15 @@
 .about-us {
-  margin: 12rem 0 10rem;
+  margin: 12rem 0 0;
   max-width: 100%;
+  color: var(--primary-grayish-blue);
 }
 
 .about-us .horizontal-line {
   width: 10rem;
   height: 0.1rem;
   background-color: var(--primary-grayish-blue);
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
+  margin: 0 auto 3rem;
 }
 
 .about-us .card {
@@ -31,6 +33,7 @@
 .about-us h1 {
   font-family: 'DM Serif Display', sans-serif;
   margin: 2rem 0 1rem;
+  color: var(--primary-dark-violet);
 }
 
 .about-us .card-text {
@@ -60,9 +63,12 @@
   font-weight: 700;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .call-to-action {
     background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
+  }
+  .about-us .horizontal-line {
+    margin: 0 0 3rem;
   }
 }
 
