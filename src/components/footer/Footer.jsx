@@ -8,7 +8,7 @@ import Image from 'react-bootstrap/Image';
 const Footer = () => {
   return (
     <Container className="footer text-center text-md-start">
-      <Row className="p-4 p-md-5">
+      <Row className="p-4 p-md-5 pb-md-3">
         <Col xs={12} md={6} className="py-4 p-md-0">
           <img src="./images/logo.svg" alt="company logo" />
         </Col>
@@ -20,7 +20,7 @@ const Footer = () => {
         </Col>
       </Row>
       <div className="horizontal-line"></div>
-      <Row className="p-4 p-md-5">
+      <Row className="p-4 p-md-5 pt-md-0">
         <Col xs={12} md={3}>
           <h5>OUR COMPANY</h5>
           <h6>
