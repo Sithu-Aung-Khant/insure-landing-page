@@ -15,14 +15,14 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <>
       <Navbar
         expand="lg"
-        className={`bg-body-tertiary px-xxl-5 ${
+        className={`bg-body-tertiary px-xl-5 ${
           isNavCollapsed ? 'collapsed' : ''
         }`}
       >
-        <Container className="px-xxl-5">
+        <Container className="px-xl-5">
           <Navbar.Brand href="#home">
             <img src="./images/logo.svg" alt="company logo" />
           </Navbar.Brand>
@@ -50,7 +50,7 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
+    </>
   );
 };
 
