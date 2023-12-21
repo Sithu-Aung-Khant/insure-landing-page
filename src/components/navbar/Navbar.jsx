@@ -18,24 +18,23 @@ const Header = () => {
     <>
       <Navbar
         expand="lg"
-        className={`bg-body-tertiary px-xl-5 ${
-          isNavCollapsed ? 'collapsed' : ''
-        }`}
+        className={`bg-body-tertiary ${isNavCollapsed ? 'collapsed' : ''}`}
       >
-        <Container className="px-xl-5">
-          <Navbar.Brand href="#home">
+        <Container className="nav-bar p-0">
+          <Navbar.Brand href="#home" className="px-md-4 px-lg-5">
             <img src="./images/logo.svg" alt="company logo" />
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="basic-navbar-nav"
             onClick={handleNavToggle}
+            className="mx-md-5"
           >
             {isNavCollapsed ? (
               <BsX style={{ width: '30px', height: '30px' }} />
             ) : null}
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto text-center">
+            <Nav className="ms-auto text-center px-md-5">
               <Nav.Link className="nav-links" href="#how-we-work">
                 HOW WE WORK
               </Nav.Link>

@@ -1,17 +1,17 @@
-.container {
+.nav-bar {
+  max-width: 100%;
+}
+
+.navbar {
   padding: 0;
 }
 
-.container .navbar-brand {
-  margin: 1rem 1.2rem;
+.navbar-brand,
+.navbar-toggler {
+  margin: 1.5rem;
 }
-
-.container .navbar-toggler {
-  margin: 1rem 1.2rem;
-}
-
-.bg-body-tertiary {
-  padding: 0;
+.navbar-collapse {
+  padding: 1.5rem;
 }
 
 .navbar-nav .btn {
@@ -60,6 +60,16 @@
   font-size: 20px;
 }
 
-.navbar-collapse.collapse.show .ms-auto.navbar-nav {
-  padding: 1.8rem;
+@media only screen and (min-width: 1024px) {
+  .navbar-brand {
+    margin-left: 2.375rem;
+  }
+  .navbar-collapse {
+    padding-right: 2.375rem;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .navbar {
+    padding: 0rem 3.8rem;
+  }
 }
