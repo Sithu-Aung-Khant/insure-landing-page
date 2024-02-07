@@ -43,7 +43,7 @@ const AboutUs = () => {
           </p>
         </Col>
       </Row>
-      <Container className="p-4 p-lg-5 my-lg-4 mx-lg-0">
+      <Row className="p-4 p-lg-5 my-lg-4 mx-lg-0">
         <Row className="call-to-action p-5">
           <Col sm={7}>
             <h2 className="display-3 d-md-none">
@@ -60,7 +60,7 @@ const AboutUs = () => {
             <Button variant="outline-light">HOW WE WORK</Button>
           </Col>
         </Row>
-      </Container>
+      </Row>
     </Container>
   );
 };

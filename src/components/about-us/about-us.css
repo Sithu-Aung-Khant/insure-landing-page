@@ -47,6 +47,7 @@
 /* Call to Action */
 .call-to-action {
   color: white;
+  /* margin: 0 auto; */
   background-image: url(../../../public/images/how-we-work-mobile.svg);
   background-repeat: no-repeat;
   background-color: var(--primary-dark-violet);
