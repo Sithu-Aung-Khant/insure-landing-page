@@ -47,7 +47,7 @@
 /* Call to Action */
 .call-to-action {
   color: white;
-  background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
+  background-image: url(../../../public/images/how-we-work-mobile.svg);
   background-repeat: no-repeat;
   background-color: var(--primary-dark-violet);
   background-position: right center;
@@ -65,7 +65,7 @@
 
 @media only screen and (min-width: 768px) {
   .call-to-action {
-    background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
+    background-image: url(../../../public/images/how-we-work-desktop.svg);
   }
   .about-us .horizontal-line {
     margin: 0 0 3rem;

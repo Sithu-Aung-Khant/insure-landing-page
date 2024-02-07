@@ -34,7 +34,7 @@
 
 @media only screen and (max-width: 426px) {
   .intro .copy {
-    background: url(../../../images/bg-pattern-intro-left-mobile.svg) left top
+    background: url(../../../../public/images/bg-pattern-intro-left-mobile.svg) left top
       no-repeat;
   }
   .copy .btn {
